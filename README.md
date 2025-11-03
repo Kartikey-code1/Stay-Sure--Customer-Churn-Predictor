@@ -25,24 +25,6 @@ This repository contains:
    ```
 5. The app will load `models/churn_model.pkl`. If it's missing, the app shows instructions to train the model.
 
-## Folder structure
-
-```
-StaySure-Portfolio/
-├── app/
-│   └── streamlit_app.py
-├── assets/
-│   └── logo.png (placeholder)
-├── data/
-│   └── Telco-Customer-Churn.csv (you should add this)
-├── models/
-│   └── churn_model.pkl (generated after training)
-├── notebooks/
-│   └── churn_analysis.ipynb
-├── train_model.py
-├── requirements.txt
-└── README.md
-```
 
 ## Notes
 - This package intentionally keeps the model-training step offline (you must provide the dataset).
